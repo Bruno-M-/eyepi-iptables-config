@@ -1,0 +1,13 @@
+Source: eyepi-iptables-config
+Section: admin
+Priority: important
+Maintainer: Bruno Maitre <bruno.maitre@gmail.com>
+Build-Depends: debhelper (>= 7.0.0~), config-package-dev (>= 5.0), iptables-persistent
+Standards-Version: 3.9.2
+
+Package: eyepi-iptables-config
+Architecture: all
+Depends: ${misc:Depends}, iptables, iptables-persistent
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Eye Pi iptables configuration
