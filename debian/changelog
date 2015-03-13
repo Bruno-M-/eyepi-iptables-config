@@ -1,3 +1,9 @@
+eyepi-iptables-config (1.3) unstable; urgency=medium
+
+  * Remove initscripts pre-depends we will fix the install bug in another way
+
+ -- Bruno Maitre <bruno.maitre@gmail.com>  Fri, 13 Mar 2015 05:36:07 +0100
+
 eyepi-iptables-config (1.2) unstable; urgency=medium
 
   * Add initscripts to pre-depends
