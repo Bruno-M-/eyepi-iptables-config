@@ -8,6 +8,7 @@
 -A INPUT -p tcp -m conntrack --ctstate RELATED,ESTABLISHED -m tcp --sport 80 -j ACCEPT
 -A INPUT -p udp -m conntrack --ctstate ESTABLISHED -m udp --sport 53 -j ACCEPT
 -A INPUT -p udp -m conntrack --ctstate NEW,RELATED,ESTABLISHED -m udp --dport 500 -j ACCEPT
+-A INPUT -p udp -m conntrack --ctstate NEW,RELATED,ESTABLISHED -m udp --dport 4500 -j ACCEPT
 -A INPUT -p esp -m conntrack --ctstate NEW,RELATED,ESTABLISHED -j ACCEPT
 -A INPUT -j LOG
 COMMIT
