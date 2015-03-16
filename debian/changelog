@@ -1,3 +1,10 @@
+eyepi-iptables-config (1.4) unstable; urgency=medium
+
+  * Enable ipsec nat-t on input
+  * Remove unneeded timestamps
+
+ -- Bruno Maitre <bruno.maitre@gmail.com>  Mon, 16 Mar 2015 05:46:21 +0100
+
 eyepi-iptables-config (1.3) unstable; urgency=medium
 
   * Remove initscripts pre-depends we will fix the install bug in another way
