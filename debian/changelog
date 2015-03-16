@@ -1,3 +1,9 @@
+eyepi-iptables-config (1.5) unstable; urgency=medium
+
+  * Accept any traffic on loopback
+
+ -- Bruno Maitre <bruno.maitre@gmail.com>  Mon, 16 Mar 2015 11:16:55 +0100
+
 eyepi-iptables-config (1.4) unstable; urgency=medium
 
   * Enable ipsec nat-t on input
