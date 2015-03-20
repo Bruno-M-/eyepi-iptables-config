@@ -1,3 +1,9 @@
+eyepi-iptables-config (1.6) unstable; urgency=medium
+
+  * Setup a limit for numbers of log per minute
+
+ -- Bruno Maitre <bruno.maitre@gmail.com>  Fri, 20 Mar 2015 04:27:23 +0100
+
 eyepi-iptables-config (1.5) unstable; urgency=medium
 
   * Accept any traffic on loopback
